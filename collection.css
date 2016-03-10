@@ -1,0 +1,51 @@
+/* CSS declarations go here */
+body {
+    background-color: black;
+    font-family: times;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    
+}
+
+
+input {
+    height: 700px;
+    Width: 1000px;
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+    box-shadow: none;
+    background-color: black;
+    padding-left: 20px;
+    margin-left: 200px;
+    position: fixed;
+    z-index: +1
+}
+
+
+.thing {
+    padding-bottom: 5px;
+    font-family: helvetica;
+    font-size: 40px;
+    color: black;
+}
+
+.delete {
+    font-size: 10px;
+    font-family: helvetica;
+    color: black;
+}
+
+
+.instruct {
+    font-family: helvetica;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 600px;
+}

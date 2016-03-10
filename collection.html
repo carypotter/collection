@@ -1,0 +1,35 @@
+<head>
+  <title>Rooms</title>
+</head>
+
+<body>
+  
+<div class="output">
+
+  {{#each things}}
+    {{> thing}}
+  {{/each}}
+  
+  {{> new}}
+  
+</div>  
+  
+</body>
+
+<template name="thing">
+  <div>
+    {{name}} 
+    <a ref="#" class="delete">Delete</a>
+  </div>
+</template>
+
+<template name = "new">
+  <form>
+    <span class="instruct">Describe a room in a home from memory</span>
+    <br>
+    <input type="text" name="name"> 
+   
+  </form>
+</template>
+
+
